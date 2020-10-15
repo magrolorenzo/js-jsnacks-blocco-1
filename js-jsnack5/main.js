@@ -2,11 +2,15 @@
 
 var numeroMax = parseInt ( prompt('Inserisci un numero') );
 console.log(numeroMax);
-var cubo = 0;
+var potenza = 3;
+
 
 if ( !isNaN(numeroMax) ){
     for (var i = 1; i <= numeroMax; i++) {
-        cubo = i*i;
+        var cubo = 1;
+        for (var j = 0; j < potenza; j++) {
+            cubo = cubo*i;
+        }
         console.log('Il cubo di ' + i + '  uguale a: ' + cubo);
     }
 } else {
