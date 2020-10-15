@@ -11,7 +11,7 @@ if ( !isNaN(numeroMax) ){
         for (var j = 0; j < potenza; j++) {
             cubo = cubo*i;
         }
-        console.log('Il cubo di ' + i + '  uguale a: ' + cubo);
+        console.log('Il cubo di ' + i + ' è uguale a: ' + cubo);
     }
 } else {
     alert('Input non valido');
