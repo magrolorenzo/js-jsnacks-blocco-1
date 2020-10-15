@@ -4,7 +4,7 @@ var base = 2;
 var esponente = 0;
 var potenza = 1
 
-for (var i = 1; potenza < 1000; i++) {
+for (var i = 1; i <= 15; i++) {
 
     if (esponente == 0) {
         // Se è elevato alla 0 risulta 1
