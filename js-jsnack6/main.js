@@ -2,8 +2,9 @@
 
 var base = 2;
 var esponente = 0;
+var potenza = 1
 
-for (var potenza = 1; potenza < 1000; esponente++) {
+for (var i = 1; potenza < 1000; i++) {
 
     if (esponente == 0) {
         // Se è elevato alla 0 risulta 1
@@ -15,4 +16,5 @@ for (var potenza = 1; potenza < 1000; esponente++) {
             console.log(' Il numero ' + base + ' elevato alla potenza di ' + esponente + ' è ' + potenza );
         }
     }
+    esponente++;
 }
